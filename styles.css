@@ -44,6 +44,8 @@ body{
 .temperature-icon i{
     text-align: center;
     margin: auto;
+    text-align: center;
+    margin: auto;
 }
 
 #celsius,#fahrenheit,#kelvin{
@@ -83,16 +85,24 @@ h2{
 .result{
     height: 35px;
     width: 100px;
+    margin: auto;
 }
 
 .result .btn{
     width: 100px;
-    height: 22px;
-    color: #a8a7a7;
+    height: 30px;
+    color: #050505;
     border: 2px solid rgb(49, 98, 155);
     font-size: 20px;
     cursor: pointer;
     border-radius: 5px;
     margin-top: 11px;
     justify-content: center;
+}
+
+.result .btn:hover{
+    background: #010101;
+    color: rgb(247, 240, 240);
+    transform: scale(1.2) /*ease*/;
+    transition: 0.5s ease-out;
 }
