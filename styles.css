@@ -36,14 +36,14 @@ body{
     background-color: linear-gradient(60deg,rgb(223, 14, 160),rgb(235, 216, 47),rgb(226, 19, 19));
 }
 
-.temperature-icon{
+#temperature-icon{
     font-size: 40px;
     color: #fff;
     
 }
-.temperature-icon i{
-    text-align: center;
-    margin: auto;
+#temperature-icon i{
+    font-size: 45px;
+    color: white;
     text-align: center;
     margin: auto;
 }
@@ -64,6 +64,7 @@ input{
     padding: 8px;
     flex: 5;
     height: 40px;
+    font-size: 22px;
     color: #888383;
     width: 100px;
     border: none;
@@ -71,6 +72,11 @@ input{
     text-align: center;
     
 }
+
+input:hover{
+    transform: scale(0.96);
+}
+
 label{
     text-align: center;
     font-family: "Cabin", sans-serif;
